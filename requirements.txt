@@ -1,0 +1,19 @@
+torchmetrics==0.7.0
+torchaudio
+soundfile
+librosa
+transformers
+matplotlib
+gradio==3.50.2
+
+
+
+!pip install -q matplotlib
+!pip install -q datasets
+!pip uninstall -q pytorch_lightning -y
+!pip install -q pytorch_lightning==1.7.0
+
+!pip uninstall -q torchmetrics -y
+!pip install -q torchmetrics==0.7.0
+!pip install -q torchinfo
+!pip install -q transformers
